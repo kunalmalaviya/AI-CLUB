@@ -1,0 +1,36 @@
+// chapter 1-PRACTICE
+// primitive data types nn ss bb u
+//n=number n=null s=string s=symbol b=BigInt b=boolean u=undefined
+
+//a program to create a type string and to add a number to it.
+let a = "Kunal";  //declaring a variable
+let b = 31;
+console.log(a+b);  //printing of variable
+
+
+//use of typeof operator
+console.log(typeof (a+b));  
+
+
+//constant object in javascript
+//we can't change constant variable in javascript
+const d = {
+    name:"kunal",
+    age:31,
+    rollno:42,
+}
+d['friend']="ankit"
+console.log(d);
+
+
+//5 word dictionary
+const dict = {
+    'name' : "kunal",
+    'rollno' : "31"
+}
+console.log(dict.name);
+console.log(dict['name']);
+
+
+
+
